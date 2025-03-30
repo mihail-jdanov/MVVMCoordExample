@@ -1,0 +1,13 @@
+# Template information section
+name: "mvvm"
+summary: "MVVM module template"
+author: "Mikhail Zhdanov"
+
+# The declarations for code files
+
+code_files:
+# View
+- {name: View.swift,  path: Code/view.swift.liquid}
+
+# ViewModel
+- {name: ViewModel.swift,  path: Code/view_model.swift.liquid}

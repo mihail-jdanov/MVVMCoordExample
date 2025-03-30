@@ -1,0 +1,25 @@
+//
+//  {{ module_info.file_name }}
+//  {{ module_info.project_name }}
+//
+//  Created by {{ developer.name }} on {{ date }}.
+//  Copyright © {{ year }} {{ developer.company }}. All rights reserved.
+//
+
+import SwiftUI
+
+struct {{ module_info.name }}View: View {
+
+    @StateObject private var viewModel = {{ module_info.name }}ViewModel()
+
+    @EnvironmentObject private var coordinator: Coordinator
+
+    var body: some View {
+        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+    }
+
+}
+
+#Preview {
+    {{ module_info.name }}View()
+}
